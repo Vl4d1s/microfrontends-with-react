@@ -10,8 +10,11 @@ This repository contains a microfrontends architecture with a combination of dif
 4. Marketing (React): This package focuses on marketing-related pages and components.
 
 Deployment, CI, and Content Delivery
-The application is deployed to AWS S3, serving as the hosting service for the static files. Continuous integration is set up using GitHub Actions.
-To improve performance and deliver static assets efficiently, the application integrates with CloudFront, an AWS Content Delivery Network (CDN).
+* The application is deployed to AWS S3, serving as the hosting service for the static files.
+
+* The CI process is set up using GitHub Actions.
+  
+* To improve performance and deliver static assets efficiently, the application integrates with CloudFront, an AWS Content Delivery Network (CDN).
 
 For detailed documentation and setup instructions, please refer to the respective package directories.
 Feel free to explore and contribute to this microfrontends architecture. Happy coding!
